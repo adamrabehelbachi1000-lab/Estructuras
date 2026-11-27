@@ -60,9 +60,8 @@ public class Ejercicio2 {
     public static void mostrarResultados(List<Double> alturas, double media){
         System.out.println("Las alturas de los alumnos de la clase son los siguientes: ");
         for (Double altura : alturas) {
-            System.out.println(altura + " ");
+            System.out.println(altura);
         }
-        System.out.println("");
         System.out.println("Superior a la media: ");
         for (Double altura : alturas) {
             if (altura > media) {
